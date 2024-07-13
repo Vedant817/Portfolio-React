@@ -5,6 +5,8 @@ import { Banner } from './components/Banner.jsx';
 import { Skills } from './components/Skills.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+import { Footer } from './components/Footer.jsx';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
